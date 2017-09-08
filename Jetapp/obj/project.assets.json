@@ -12539,11 +12539,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\JETBPM\\Jetapp\\Jetapp.csproj",
+      "projectUniqueName": "C:\\JETBPM\\Jetapp\\Jetapp.csproj",
       "projectName": "Jetapp",
-      "projectPath": "c:\\JETBPM\\Jetapp\\Jetapp.csproj",
+      "projectPath": "C:\\JETBPM\\Jetapp\\Jetapp.csproj",
       "packagesPath": "C:\\Users\\diaskhani0112\\.nuget\\packages\\",
-      "outputPath": "c:\\JETBPM\\Jetapp\\obj\\",
+      "outputPath": "C:\\JETBPM\\Jetapp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

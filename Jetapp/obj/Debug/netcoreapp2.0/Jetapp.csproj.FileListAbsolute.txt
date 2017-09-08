@@ -1,0 +1,10 @@
+C:\JETBPM\Jetapp\bin\Debug\netcoreapp2.0\Jetapp.deps.json
+C:\JETBPM\Jetapp\bin\Debug\netcoreapp2.0\Jetapp.runtimeconfig.json
+C:\JETBPM\Jetapp\bin\Debug\netcoreapp2.0\Jetapp.runtimeconfig.dev.json
+C:\JETBPM\Jetapp\bin\Debug\netcoreapp2.0\Jetapp.dll
+C:\JETBPM\Jetapp\bin\Debug\netcoreapp2.0\Jetapp.pdb
+C:\JETBPM\Jetapp\obj\Debug\netcoreapp2.0\Jetapp.csproj.CoreCompileInputs.cache
+C:\JETBPM\Jetapp\obj\Debug\netcoreapp2.0\Jetapp.AssemblyInfoInputs.cache
+C:\JETBPM\Jetapp\obj\Debug\netcoreapp2.0\Jetapp.AssemblyInfo.cs
+C:\JETBPM\Jetapp\obj\Debug\netcoreapp2.0\Jetapp.dll
+C:\JETBPM\Jetapp\obj\Debug\netcoreapp2.0\Jetapp.pdb

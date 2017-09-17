@@ -1,0 +1,17 @@
+
+Процесс 
+
+Processmain
+{
+id int //id процесса
+name string //название процесса
+parentid int //если лежит в папке то имеет значение
+isfolder boolean ///признак что это папка.
+}
+
+Processver{
+id int //id таблицы
+Version string or int// Номер версиии
+datecreated date//Дата создания версии
+
+}

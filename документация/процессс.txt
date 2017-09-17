@@ -13,5 +13,5 @@ Processver{
 id int //id таблицы
 Version string or int// Номер версиии
 datecreated date//Дата создания версии
-
+description string описание 
 }

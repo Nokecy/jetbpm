@@ -11,6 +11,7 @@ isfolder boolean ///признак что это папка.
 
 Processver{
 id int //id таблицы
+ProcessId int //Id процесса
 Version string or int// Номер версиии
 datecreated date//Дата создания версии
 description string описание 

@@ -7,3 +7,7 @@ https://docs.camunda.org/manual/7.5/user-guide/process-engine/database/
 https://www.codeproject.com/Articles/1155687/Simple-Viewer-and-Semantic-Parser-for-BPMN-Diagram
 https://github.com/bzinchenko/bpmnview
 bpmn просмотрщик на C#
+
+
+http://www.workflowpatterns.com/evaluations/opensource/
+BPMN патерны 

@@ -15,7 +15,3 @@ BPMN патерны
 http://eprints.qut.edu.au/14320/1/14320.pdf
 Огромное pdf сравнение
 
-
-
------------ РАБОЧИЕ ПАТТЕРНЫ BPMN
-http://www.workflowpatterns.com/vendors/documentation/BPMN-pat.pdf

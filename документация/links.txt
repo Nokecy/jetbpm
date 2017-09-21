@@ -19,3 +19,5 @@ http://eprints.qut.edu.au/14320/1/14320.pdf
 Жизненый цикл задачи
 6.2.1. Task life cycle
 https://docs.jboss.org/jbpm/v5.0/userguide/ch.Human_Tasks.html
+Жизненый цикл задачи видение Камунды
+https://docs.camunda.org/manual/7.7/webapps/tasklist/task-lifecycle/

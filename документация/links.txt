@@ -15,9 +15,16 @@ BPMN патерны
 http://eprints.qut.edu.au/14320/1/14320.pdf
 Огромное pdf сравнение
 
-
+---------------------------------------------------------------------------------------------------------
+----
+----                TASKS
+----                        TASKS                       TASKS
+----
+---------------------------------------------------------------------------------------------------------
 Жизненый цикл задачи
-6.2.1. Task life cycle
+jboss lyfecycle
 https://docs.jboss.org/jbpm/v5.0/userguide/ch.Human_Tasks.html
 Жизненый цикл задачи видение Камунды
 https://docs.camunda.org/manual/7.7/webapps/tasklist/task-lifecycle/
+Bonita task lyfecycle
+http://bonitaworld.blogspot.com/2009/06/task-execution-in-nova-bonita.html

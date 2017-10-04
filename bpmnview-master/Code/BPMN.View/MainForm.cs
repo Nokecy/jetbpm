@@ -78,7 +78,7 @@ namespace BPMN.View
         
         this.Text = "BPMN View - " + file;
       }
-      catch (Exception ex)
+      catch //(Exception ex)
       {
         this.Text = "BPMN View";
         MessageBox.Show("Error opening file!");
@@ -143,7 +143,7 @@ namespace BPMN.View
         {
           diagramImage.Save(file, format);
         }
-        catch (Exception ex)
+        catch //(Exception ex)
         {
           MessageBox.Show("Error saving file!");
         }

@@ -11,26 +11,7 @@ namespace bpmn_try_parse
     {
         public const string bpmn2 = @"http://www.omg.org/spec/BPMN/20100524/MODEL";
     }
-
-    #region ненжуный код
-
-    /*
-    [XmlRoot(Namespace = "http://www.url.com/foo")]
-    public class Comprobante
-    {
-        public string Tags { get; set; }
-        public Complemento Complemento { get; set; }
-    }
-
-    [XmlType(Namespace = "http://www.url.com/foo")]
-    public class Complemento
-    {
-        [XmlElement(Namespace = "http://www.url.com/child")]
-        public string Tag { get; set; }
-    }*/
-
-    #endregion
-
+    
     [XmlRoot(Namespace = Const.bpmn2)]
     public class definitions
     {
@@ -43,8 +24,24 @@ namespace bpmn_try_parse
     [XmlType(Namespace = Const.bpmn2)]
     public class process
     {
-        [XmlElement(Namespace = Const.bpmn2)]
-        public string Tag { get; set; }
+        [XmlAttribute]
+        public string id { get; set; }
+        [XmlAttribute]
+        public string name { get; set; }
+        [XmlAttribute]
+        public Boolean isExecutable { get; set; }
+
+
+        [XmlElement(Type = typeof(startEvent), ElementName = "startEvent")]
+        public List<object> Elements { get; set; }
+    }
+
+    public class startEvent
+    {
+        [XmlAttribute]
+        public string id { get; set; }
+        [XmlAttribute]
+        public string name { get; set; }
     }
 
     class Program
@@ -54,23 +51,11 @@ namespace bpmn_try_parse
 
         static void Main(string[] args)
         {
+            
 
-            /*      var child = new Complemento { Tag = "tag" };
-            var root = new Comprobante { Tags = "tags", Complemento = child };
-
-            XmlSerializerNamespaces ns = new XmlSerializerNamespaces();
-            ns.Add("rootPrefix", "http://www.url.com/foo");
-            ns.Add("childPrefix", "http://www.url.com/child");
-
-            var xs = new XmlSerializer(typeof(Comprobante));
-
-            xs.Serialize(Console.Out, root, ns);
-            */
-
-
-
-            var process1 = new process { Tag = "some unique tag" };
+            var process1 = new process { id = "some unique tag" };
             var root = new definitions { id = "id", process = process1};
+            process1.Elements= new List<object> { new startEvent { id = "StartEvent_1",name= "Start Event" } };
 
             XmlSerializerNamespaces ns = new XmlSerializerNamespaces();
             ns.Add("bpmn2", Const.bpmn2);
